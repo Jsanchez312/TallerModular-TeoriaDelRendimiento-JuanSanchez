@@ -1,0 +1,10 @@
+GCC = gcc
+
+MODULO = moduloJS
+PROGRAMAS = modularJS
+
+modularJS:
+	$(GCC) $(MODULO).c -c
+	$(GCC) $@.c $(MODULO).o -o $@
+clear:
+	$(RM) $(PROGRAMAS) $(MODULO).o
