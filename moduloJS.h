@@ -31,8 +31,8 @@
  *  - Encapsular los datos para enviarlos a la función MxM
  *  - Se desencapsulan los datos dentro de la función MxM (descomprimen)
 *************************************************************************************/
-#ifndef MODULO_H
-#define MODULO_H
+#ifndef MODULOJS_H
+#define MODULOJS_H
 
 // se usa extern para las variables que se van a usar
 extern double *mA, *mB, *mC;
